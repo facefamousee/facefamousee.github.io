@@ -1,3 +1,5 @@
+// LORD JESUS CHRIST
+
 const button = document.getElementById("button");
 
 
@@ -9,3 +11,5 @@ function buttonClick() {
 
     
 }
+
+// LORD JESUS CHRIST
