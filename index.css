@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#div-header{
+    display:flex;
+    justify-content: center;
+    /* border: 7px dotted blue; */
+    padding: 18px;
+    margin: 18px 18px;
+}
+
+#div-images{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images{
+    border-radius: 18px;
+    height: 720px;
+    margin-bottom: 18px;
+}
+
+#p-footer{
+    text-align: center;
+    margin: 18px;
+}
