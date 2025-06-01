@@ -10,6 +10,17 @@
     /* border: 7px dotted blue; */
     padding: 18px;
     margin: 18px 18px;
+    gap: 18px;
+    align-items: center;
+}
+
+header h2{
+    color: rgba(127, 127, 127,0.5);
+}
+
+.a-social{
+    color: rgba(127, 127, 127,0.2054924553130243);
+    font-size: 36px;
 }
 
 #div-images{
@@ -23,6 +34,7 @@
     border-radius: 18px;
     width: 720px;
     margin-bottom: 18px;
+    border: 7px solid rgba(127, 127, 127,0.2054924553130243);
 }
 
 #p-footer{
@@ -30,10 +42,22 @@
     margin: 18px;
 }
 
+.images:hover{
+    box-shadow: 7px 7px 7px 7px rgba(127, 127, 127,0.125);
+}
+
 @media screen and (max-width: 626px) {
 
     .images{
         max-width: 626px;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .images{
+        max-width: 360px;
     }
     
 }
