@@ -21,7 +21,7 @@
 
 .images{
     border-radius: 18px;
-    height: 720px;
+    width: 720px;
     margin-bottom: 18px;
 }
 
@@ -33,7 +33,7 @@
 @media screen and (max-width: 626px) {
 
     .images{
-        height: 360px;
+        max-width: 626px;
     }
     
 }
