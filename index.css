@@ -29,3 +29,11 @@
     text-align: center;
     margin: 18px;
 }
+
+@media screen and (max-width: 626px) {
+
+    .images{
+        height: 360px;
+    }
+    
+}
