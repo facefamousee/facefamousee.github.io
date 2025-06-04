@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    background-color: rgba(127, 127, 127,0.2054924553130243);
+}
+
 #div-header{
     display:flex;
     justify-content: center;
@@ -35,6 +39,8 @@ header h2{
     width: 720px;
     margin-bottom: 18px;
     border: 7px solid rgba(127, 127, 127,0.2054924553130243);
+    transition: 3.75s;
+    
 }
 
 #p-footer{
@@ -44,6 +50,8 @@ header h2{
 
 .images:hover{
     box-shadow: 7px 7px 7px 7px rgba(127, 127, 127,0.125);
+    width: 50vw;
+    /* transition: ; */
 }
 
 @media screen and (max-width: 626px) {
@@ -51,6 +59,11 @@ header h2{
     .images{
         max-width: 626px;
     }
+
+    .images:hover{
+        width: 100vw;
+    /* transition: ease; */
+}
     
 }
 
