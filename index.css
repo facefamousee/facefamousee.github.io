@@ -44,7 +44,7 @@ header h2{
     margin-bottom: 18px;
     border: 7px solid rgba(127, 127, 127,0.2054924553130243);
     transition: 1.875s;
-    
+
 }
 
 #p-footer{
@@ -55,8 +55,19 @@ header h2{
 
 .images:hover{
     box-shadow: 7px 7px 7px 7px rgba(127, 127, 127,0.125);
-    width: 50vw;
-    /* transition: ; */
+    width: 960px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .images{
+        width: 800px;
+    }
+
+    /* .images:hover{
+        box-shadow: 7px 7px 7px 7px rgba(127, 127, 127,0.5);
+        min-width: 79vw;
+    } */
 }
 
 @media screen and (max-width: 626px) {
@@ -64,8 +75,13 @@ header h2{
     .images{
         max-width: 626px;
     }
+
+    /* .images:hover{
+        box-shadow: 7px 7px 7px 7px rgba(127, 127, 127,0.125);
+        width: 100vw;
+    } */
 }
-    
+
 }
 
 @media screen and (max-width: 360px) {
@@ -73,5 +89,10 @@ header h2{
     .images{
         max-width: 360px;
     }
-    
+
+    /* .images:hover{
+        box-shadow: 7px 7px 7px 7px rgba(127, 127, 127,0.125);
+        width: 100vw;
+    } */
+
 }
